@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; img-src 'self' data:; connect-src 'self' https://api.web3forms.com; form-action 'self' https://api.web3forms.com; frame-ancestors 'none'; base-uri 'self'; object-src 'none';">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Contact — The Ivory Stroke</title>
+<meta name="description" content="Get in touch with The Ivory Stroke about custom invitations, return gifts and event decor.">
+<meta name="keywords" content="contact The Ivory Stroke, wedding invitation enquiry Chennai, custom stationery quote, book wedding decor Chennai">
+<link rel="canonical" href="https://www.ivorystroke.com/contact.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact — The Ivory Stroke">
+<meta property="og:description" content="Get in touch with The Ivory Stroke about custom invitations, return gifts and event decor.">
+<meta property="og:url" content="https://www.ivorystroke.com/contact.html">
+<meta property="og:image" content="https://www.ivorystroke.com/images/logo/og-image.jpg">
+<meta property="og:site_name" content="The Ivory Stroke">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Contact — The Ivory Stroke">
+<meta name="twitter:description" content="Get in touch with The Ivory Stroke about custom invitations, return gifts and event decor.">
+<meta name="twitter:image" content="https://www.ivorystroke.com/images/logo/og-image.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Jost:wght@300;400;500;600&family=Italianno&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <a href="index.html" class="logo">
+      <img src="images/logo/mark.png" alt="The Ivory Stroke" class="mark">
+      The Ivory Stroke</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="process.html">Process</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="testimonials.html">Stories</a>
+      <a href="contact.html" class="btn btn-primary">Enquire</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <img src="images/logo/mark.png" alt="The Ivory Stroke" class="mark-sm" style="height:96px;width:auto;margin-bottom:20px;">
+      <p class="eyebrow">Get In Touch</p>
+      <h1>Let's start with your date</h1>
+      <p>Tell us a little about your event and we'll write back within two working days with next steps and a rough estimate.</p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="wrap">
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <p class="eyebrow">Studio Details</p>
+          <h2>We'd love to hear about it</h2>
+          <p>Whether it's a full wedding suite or just a box of return gifts, send us the details and we'll take it from there.</p>
+          <div class="info-row"><span class="label">Studio</span><span class="val">Chennai, India</span></div>
+          <div class="info-row"><span class="label">Email</span><span class="val">theivorystroke@gmail.com</span></div>
+          <div class="info-row"><span class="label">Phone</span><span class="val">+91 94877 60289</span></div>
+          <div class="info-row"><span class="label">Instagram</span><span class="val">@the_ivory_stroke</span></div>
+        </div>
+
+        <form id="enquiryForm" class="reveal" action="https://api.web3forms.com/submit" method="POST">
+          <!-- Web3Forms: replace YOUR_ACCESS_KEY_HERE with your key from https://web3forms.com -->
+          <input type="hidden" name="access_key" value="68a7e1c3-2e84-4a63-9ced-6881032f2dae">
+          <input type="hidden" name="subject" value="New enquiry from The Ivory Stroke website">
+          <input type="text" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required placeholder="Full name">
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="you@example.com">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" required placeholder="91 98765 43210">
+            </div>
+            <div class="field">
+              <label for="service">I'm Enquiring About</label>
+              <select id="service" name="service">
+                <option>Custom Invitations</option>
+                <option>Return Gifts</option>
+                <option>Event Decor</option>
+                <option>Multiple / Not Sure Yet</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="date">Event Date</label>
+            <input type="date" id="date" name="event_date">
+          </div>
+
+          <div class="field">
+            <label for="message">Tell Us About Your Event</label>
+            <textarea id="message" name="message" required placeholder="Guest count, palette, style you love..."></textarea>
+          </div>
+
+          <div class="submit-row">
+            <button type="submit" class="btn btn-primary" id="submitBtn">Send Enquiry</button>
+            <span class="form-status" id="formStatus"></span>
+          </div>
+          <p style="font-size:0.82rem; opacity:0.55; margin-top:16px;">No obligation — just a conversation about your date. We reply within two working days.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-main">
+      <div class="foot-col">
+        <div class="foot-logo">
+          <span class="foot-logo-badge"><img src="images/logo/mark.png" alt="The Ivory Stroke"></span>
+          The Ivory Stroke</div>
+        <div class="foot-tag">where every detail tells a story</div>
+        <p class="foot-about">A small studio designing custom invitations, return gifts and event decor — every piece finished by hand.</p>
+      </div>
+
+      <div class="foot-col">
+        <h4>Explore</h4>
+        <div class="foot-links">
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="process.html">Process</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="testimonials.html">Stories</a>
+        </div>
+      </div>
+
+      <div class="foot-col">
+        <h4>Get In Touch</h4>
+        <div class="foot-contact">
+          <div class="foot-contact-row">
+            <svg class="ico" viewBox="0 0 24 24"><path d="M3 6h18v12H3z"/><path d="M3 6l9 7 9-7"/></svg>
+            <a href="mailto:theivorystroke@gmail.com">theivorystroke@gmail.com</a>
+          </div>
+          <div class="foot-contact-row">
+            <svg class="ico" viewBox="0 0 24 24"><path d="M4 5c0 8 7 15 15 15l3-4-6-3-2 2c-2-1-4-3-5-5l2-2-3-6z"/></svg>
+            <a href="tel:+919487760289">+91 94877 60289</a>
+          </div>
+          <div class="foot-contact-row">
+            <svg class="ico" viewBox="0 0 24 24"><path d="M12 21s7-7.5 7-12a7 7 0 1 0-14 0c0 4.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
+            <span>Chennai, India</span>
+          </div>
+          <div class="foot-contact-row">
+            <svg class="ico" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="0.6" fill="#EADFE6"/></svg>
+            <a href="https://www.instagram.com/the_ivory_stroke" target="_blank" rel="noopener noreferrer">@the_ivory_stroke</a>
+          </div>
+          <a href="contact.html" class="btn btn-primary foot-cta" style="margin-top:6px;">Enquire</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span class="year"></span> The Ivory Stroke Studio. All rights reserved.</span>
+      <span>Custom Invitations · Return Gifts · Decor</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
