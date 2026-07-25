@@ -90,8 +90,11 @@
 
           <div class="form-row">
             <div class="field">
-              <label for="phone">Phone</label>
-              <input type="tel" id="phone" name="phone" required placeholder="91 98765 43210">
+              <label for="phone">Phone </label>
+              <input type="tel" id="phone" name="phone" required
+                     pattern="^[0-9+\-\s()]{7,20}$"
+                     title="Enter a valid phone number (7–20 digits, spaces, +, - or () allowed)"
+                     placeholder="e.g. +91 98765 43210">
             </div>
             <div class="field">
               <label for="service">I'm Enquiring About</label>
@@ -105,8 +108,8 @@
           </div>
 
           <div class="field">
-            <label for="date">Event Date</label>
-            <input type="date" id="date" name="event_date">
+            <label for="date">Event Date </label>
+            <input type="date" id="date" name="event_date" required>
           </div>
 
           <div class="field">
