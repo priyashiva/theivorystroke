@@ -1,6 +1,12 @@
 // footer year
 document.querySelectorAll('.year').forEach(el => el.textContent = new Date().getFullYear());
 
+// event date field (contact.html only) can't be set in the past
+const dateField = document.getElementById('date');
+if (dateField) {
+  dateField.setAttribute('min', new Date().toISOString().split('T')[0]);
+}
+
 // mobile nav
 const navToggle = document.getElementById('navToggle');
 const navLinks = document.getElementById('navLinks');
